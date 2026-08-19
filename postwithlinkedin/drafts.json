@@ -1,7 +1,0 @@
-[
-  {
-    "sha": "6ad4dd5",
-    "commit_message": "Add files via upload",
-    "draft": "Ever found yourself scrolling through a long article just to pull a single paragraph out, then copy\u2011paste it into a note app to ask a follow\u2011up question? I did, and I thought, \u201cWhy not ask the page itself?\u201d\n\nSo I built a Chrome extension that turns any tab into a chat window, powered by LangChain and a Groq LLM. Just click the icon, type your question, and the extension pulls the relevant text from the page, sends it to the model, and returns an answer\u2014all in the same tab.\n\nWhat went into it:\n \u2192 Chrome extension manifest, popup.html, popup.css, and popup.js for the UI\n \u2192 A lightweight Flask app (app.py) that proxies requests to LangChain\n \u2192 LangChain wrappers to chunk page text and generate prompts\n \u2192 Groq LLM integration for fast, cost\u2011effective inference\n \u2192 requirements.txt to keep the environment reproducible\n\nHonestly, the most fun part was watching the model actually understand context from a random news article. I still have to tweak the tokenizer for very long pages, but it\u2019s a working prototype that feels surprisingly useful.\n\nCheck out the commit that ships the extension here: https://github.com/muskaaanraj/Chat_with_web/commit/6ad4dd50d2f3100e91a04ca1916347549a2090f4\n\n#ChromeExtension #LangChain #Groq #LLM #Python #AI #BuildInPublic"
-  }
-]
